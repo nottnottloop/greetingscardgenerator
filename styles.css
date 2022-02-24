@@ -1,0 +1,44 @@
+form * {
+	margin: 5px;
+}
+
+body {
+	font-family:Geneva, Tahoma, sans-serif;
+	background-color: honeydew;
+}
+
+#card {
+	padding: 10px 70px 30px 10px;
+	border: 5px solid black;
+	width: 250px;
+	height: 400px;
+	display: none;
+	background-color: white;
+}
+
+#card h2 {
+	text-align: center;
+	margin-top: 0px;
+}
+
+#card h3 {
+	text-align: center;
+	margin-top: 10px;
+}
+
+#card p {
+	margin-top: 130px;
+	margin-bottom: 130px;
+}
+
+.greenText {
+	color: green;
+}
+
+.orangeText {
+	color: orange;
+}
+
+.purpleText {
+	color: plum;
+}

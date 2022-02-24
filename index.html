@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles.css">
+	<title>Greetings Card Generator</title>
+	<script defer src="./bundle.js"></script>
+</head>
+<body>
+	<h1>Greetings Card Generator 🔥🔥🔥</h1>
+	<form id="form">
+		<label for="name">Name:</label>
+		<input name="name" id="name" type="text" placeholder="Name" value="Billy" required/><br>
+		<label for="celebration">Type of Event:</label>
+		<select name="celebration" id="celebration" required>
+			<option disabled selected value="">Select your option</option>
+			<option value="birthday" selected>Birthday</option>
+			<option value="easter">Easter</option>
+			<option value="christmas">Christmas</option>
+		</select><br>
+		<label for="message">Message in Card:</label><br>
+		<textarea name="message" id="message" rows="4" cols="50" required>Wishing you lots of love</textarea><br>
+		<label for="from">From:</label>
+		<input name="from" id="from" type="text" placeholder="From" value="Andrew" required /><br>
+		<input type="submit" value="Make your card!!🔥"/>
+	</form>
+	<section id="card">
+		<h2 id="cardname">To Charles</h2>
+		<h3 id="cardcelebration">Happy Hannukah</h3>
+		<p id="cardmessage">My you have grown up fast my boy many good stuff thank you</p>
+		<h2 id="cardfrom">From Peter</h2>
+	</section>
+</body>
+</html>

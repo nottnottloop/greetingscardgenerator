@@ -1,0 +1,17 @@
+{
+  "name": "greetingscard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"watchify ./index.js -o bundle.js\" \"py -m http.server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "watchify": "^4.0.0"
+  }
+}
